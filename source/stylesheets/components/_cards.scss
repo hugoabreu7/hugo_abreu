@@ -1,0 +1,42 @@
+.one-card {
+  position: relative;
+  height: 160px;
+  width: 240px;
+  box-shadow: 1px 1px 4px rgba(120,120,120,0.2);
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  margin: 0px auto;
+  &:hover {
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+  }
+  @media only screen and (min-width: 768px) {
+    margin-top: 20vh;
+  }
+  @media only screen and (max-width: 768px) {
+    margin-top: 10px;
+  }
+}
+
+.card-overlay {
+  display: none;
+}
+
+.slide-text {
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 90%;
+  left: 46%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+.card-description {
+  padding-top: 10px;
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
+}

@@ -1,3 +1,11 @@
 // Import your components CSS files here.
-@import "alert";
-@import "navbar";
+
+@import "text";
+@import "blocks";
+@import "timeline";
+@import "circles";
+@import "cards";
+
+body {
+  background: white;
+}
