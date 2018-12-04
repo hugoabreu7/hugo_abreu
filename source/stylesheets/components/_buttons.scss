@@ -1,0 +1,66 @@
+.cta-button {
+  color: white;
+  padding: 8px 20px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 20px;
+  text-decoration: none;
+  &:hover {
+  text-decoration: none;
+  color: white;
+  border: 2px solid $secondary;
+  background: $secondary;
+  }
+}
+
+.nav-bar-button-main-hover {
+  color: white;
+  padding: 8px 20px;
+  margin: 20px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 20px;
+  text-decoration: none;
+  &:hover {
+  text-decoration: none;
+  color: white;
+  border: 2px solid $main;
+  background: $main;
+  }
+}
+
+.nav-bar-button-secondary-hover {
+  color: white;
+  padding: 8px 20px;
+  margin: 20px;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 20px;
+  text-decoration: none;
+  &:hover {
+  text-decoration: none;
+  color: white;
+  border: 2px solid $secondary;
+  background: $secondary;
+  }
+}
+
+.nav-bar-button-colored {
+  color: white;
+  padding: 8px 20px;
+  margin: 20px;
+  background: $main;
+  border: 2px solid $main;
+  border-radius: 20px;
+  text-decoration: none;
+  &:hover {
+  text-decoration: none;
+  color: white;
+  border: 2px solid $secondary;
+  background: $secondary;
+  }
+}
+
+.nav-bar-button-no-display {
+  display: none;
+}

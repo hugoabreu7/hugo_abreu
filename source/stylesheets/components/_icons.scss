@@ -1,0 +1,44 @@
+.margin-top {
+    @media only screen and (min-width: 768px) {
+    margin-top: 10vh;
+  }
+}
+
+.margin-right {
+  margin-right: 20px;
+}
+
+.side-project-icon {
+  font-family: $headers-font;
+  font-size: 60px;
+  color: $my-black;
+}
+
+.side-project-rest {
+  font-family: $headers-font;
+  font-size: 40px;
+  color: $my-black;
+}
+
+.contacts-icon {
+  height: 160px;
+  width: 160px;
+  @media only screen and (min-width: 768px) {
+    margin-top: 10vh;
+  }
+  &:hover {
+    animation: flash 1s;
+  }
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}

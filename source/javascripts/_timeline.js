@@ -14,7 +14,6 @@
       rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
       rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
-    console.log("Function 1");
   }
 
   function callbackFunc() {
@@ -23,7 +22,6 @@
         items[i].classList.add("in-view");
       }
     }
-    console.log("Function 2");
   }
 
   // listen for events
