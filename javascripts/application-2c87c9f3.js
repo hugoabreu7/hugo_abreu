@@ -12723,49 +12723,27 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
+function navBar() {
+  const navbar = document.querySelector('.navbar');
+  if (navbar) {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY >= window.innerHeight * 0.9) {
+        navbar.classList.add('navbar-white');
+      } else {
+        navbar.classList.remove('navbar-white');
+      }
+    });
+  }
+}
+
 function navBarButton() {
-  const button = document.querySelector('.nav-bar-button-secondary-hover');
+  const button = document.querySelector('.nav-bar-button');
   if (button) {
     window.addEventListener('scroll', () => {
-      if (window.scrollY >= window.innerHeight * 8) {
+      if (window.scrollY >= window.innerHeight * 0.9) {
         button.classList.remove('nav-bar-button-secondary-hover');
-        button.classList.remove('nav-bar-button-colored');
-        button.classList.remove('nav-bar-button-main-hover');
-        button.classList.add('nav-bar-button-no-display');
-      }
-      else if (window.scrollY >= window.innerHeight * 7) {
-        button.classList.remove('nav-bar-button-no-display');
-        button.classList.remove('nav-bar-button-secondary-hover');
-        button.classList.remove('nav-bar-button-colored');
-        button.classList.add('nav-bar-button-main-hover');
-      }
-      else if (window.scrollY >= window.innerHeight * 6) {
-        button.classList.remove('nav-bar-button-no-display');
-        button.classList.remove('nav-bar-button-main-hover');
-        button.classList.remove('nav-bar-button-colored');
-        button.classList.add('nav-bar-button-secondary-hover');
-      }
-      else if (window.scrollY >= window.innerHeight * 5) {
-        button.classList.remove('nav-bar-button-no-display');
-        button.classList.remove('nav-bar-button-secondary-hover');
-        button.classList.remove('nav-bar-button-colored');
-        button.classList.add('nav-bar-button-main-hover');
-      }
-      else if (window.scrollY >= window.innerHeight * 4) {
-        button.classList.remove('nav-bar-button-secondary-hover');
-        button.classList.remove('nav-bar-button-main-hover');
-        button.classList.remove('nav-bar-button-colored');
-        button.classList.add('nav-bar-button-no-display');
-      }
-      else if (window.scrollY >= window.innerHeight * 2) {
-        button.classList.remove('nav-bar-button-no-display');
-        button.classList.remove('nav-bar-button-secondary-hover');
-        button.classList.remove('nav-bar-button-main-hover');
         button.classList.add('nav-bar-button-colored');
-      }
-      else {
-        button.classList.remove('nav-bar-button-no-display');
-        button.classList.remove('nav-bar-button-main-hover');
+      } else {
         button.classList.remove('nav-bar-button-colored');
         button.classList.add('nav-bar-button-secondary-hover');
       }
@@ -12773,6 +12751,7 @@ function navBarButton() {
   }
 }
 
+navBar();
 navBarButton();
 function smoothScrolling() {
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -12817,7 +12796,6 @@ smoothScrolling();
   window.addEventListener("load", callbackFunc);
   window.addEventListener("resize", callbackFunc);
   window.addEventListener("scroll", callbackFunc);
-
 })();
 
 
