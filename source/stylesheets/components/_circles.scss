@@ -34,7 +34,7 @@
     @media only screen and (min-width: 768px) {
     width: 170px;
     height: 170px;
-    margin: 10px auto 24px auto;
+    margin: 0px auto 40px auto;
   }
   div {
   display: flex;
@@ -92,12 +92,18 @@
   height: 120px;
   margin-bottom: 16px;
   @media only screen and (min-width: 768px) {
-    margin-top: 10vh;
+    margin-top: 6vh;
     width: 160px;
     height: 160px;
   }
     &:hover {
     animation: flash 1s;
+  }
+}
+
+.language-flag-line-2 {
+  @media only screen and (max-width: 768px) {
+    margin-top: 8vh !important;
   }
 }
 
