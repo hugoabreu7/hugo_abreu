@@ -21,13 +21,16 @@
 }
 
 .contacts-icon {
-  height: 160px;
-  width: 160px;
+  height: 120px;
+  width: 120px;
+  margin-top: 6vh;
+  transition: all 0.3s ease;
   @media only screen and (min-width: 768px) {
-    margin-top: 10vh;
+    height: 160px;
+    width: 160px;
   }
   &:hover {
-    animation: flash 1s;
+    opacity: 0.7;
   }
 }
 

@@ -40,7 +40,6 @@
 .timeline ul li .education {
   position: relative;
   bottom: 0;
-  width: 320px;
   padding: 15px;
   background: $main;
 }
@@ -48,7 +47,6 @@
 .timeline ul li .work {
   position: relative;
   bottom: 0;
-  width: 320px;
   padding: 15px;
   background: $secondary;
 }
@@ -141,9 +139,17 @@ time {
 /* GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+@media screen and (max-width: 10000px) {
+  .timeline ul li div {
+    width: 320px;
+    height: auto;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .timeline ul li div {
-    width: 250px;
+    width: 200px;
+    height: auto;
   }
   .timeline ul li:nth-child(even) div {
     left: -289px;
@@ -157,6 +163,7 @@ time {
   }
   .timeline ul li div {
     width: calc(100vw - 91px);
+    height: auto;
   }
   .timeline ul li:nth-child(even) div {
     left: 45px;
@@ -171,4 +178,18 @@ time {
     border-width: 8px 16px 8px 0;
     border-color: transparent $secondary transparent transparent;
   }
+}
+
+// Diferenciação
+
+.desktop {
+  @media only screen and (max-width: 768px) {
+      display: none;
+    }
+}
+
+.mobile {
+  @media only screen and (min-width: 768px) {
+      display: none;
+    }
 }

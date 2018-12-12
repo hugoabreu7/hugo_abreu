@@ -19,11 +19,11 @@
 }
 
 .achievement-circle {
-  width: 180px;
-  height: 180px;
+  width: 120px;
+  height: 120px;
   background-color: $main;
   border-radius: 50%;
-  margin: 40px auto 10px auto;
+  margin: 10px auto;
   color: white;
   transition: all 1s ease;
   -moz-transition: all 1s; /* Firefox 4 */
@@ -31,16 +31,25 @@
   -o-transition: all 1s; /* Opera */
   position:relative;
   overflow:hidden;
+    @media only screen and (min-width: 768px) {
+    width: 170px;
+    height: 170px;
+    margin: 10px auto 24px auto;
+  }
   div {
   display: flex;
   align-items: center;
   padding: 10px;
+  font-size: 16px;
+    @media only screen and (min-width: 768px) {
+      font-size: 18px;
+    }
   }
 }
 
 .box3d {
    width: 100%;
-   height:180px;
+   height:120px;
   border-radius: 50%;
   position:absolute;
   top: 0px;
@@ -55,6 +64,9 @@
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
+      @media only screen and (min-width: 768px) {
+    height: 170px;
+  }
 }
 
 .box3d:first-child {
@@ -76,11 +88,13 @@
 }
 
 .language-flag {
-  width: 160px;
-  height: 160px;
+  width: 120px;
+  height: 120px;
   margin-bottom: 16px;
   @media only screen and (min-width: 768px) {
     margin-top: 10vh;
+    width: 160px;
+    height: 160px;
   }
     &:hover {
     animation: flash 1s;
