@@ -15,13 +15,13 @@
   color: $my-black;
   }
     @media only screen and (min-width: 360px) and (max-width: 500px) {
-    height: 180vh;
+    height: 200vh;
   }
     @media only screen and (min-width: 500px) and (max-width: 620px) {
     height: 340vh;
   }
     @media only screen and (min-width: 620px) and (max-width: 760px) {
-    height: 290vh;
+    height: 310vh;
   }
   @media only screen and (min-width: 760px) and (max-width: 1000px) {
     height: 130vh;
