@@ -12727,7 +12727,7 @@ function navBar() {
   const navbar = document.querySelector('.navbar');
   if (navbar) {
     window.addEventListener('scroll', () => {
-      if (window.scrollY >= window.innerHeight * 0.88) {
+      if (window.scrollY >= window.innerHeight * 0.04) {
         navbar.classList.add('navbar-white');
       } else {
         navbar.classList.remove('navbar-white');
@@ -12740,7 +12740,7 @@ function navBarButton() {
   const button = document.querySelector('.nav-bar-button');
   if (button) {
     window.addEventListener('scroll', () => {
-      if (window.scrollY >= window.innerHeight * 0.88) {
+      if (window.scrollY >= window.innerHeight * 0.04) {
         button.classList.remove('nav-bar-button-secondary-hover');
         button.classList.add('nav-bar-button-colored');
       } else {
@@ -12754,15 +12754,15 @@ function navBarButton() {
 navBar();
 navBarButton();
 function smoothScrolling() {
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
 
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
         });
     });
-});
 }
 
 smoothScrolling();
