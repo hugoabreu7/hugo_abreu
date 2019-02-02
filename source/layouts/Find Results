@@ -1,0 +1,36 @@
+Searching 40 files for "product manager"
+
+/Users/hugo/code/hugoabreu7/hugo_abreu/source/layouts/_about.html.erb:
+    2    <h2 class="text-center">Thank you for reaching out 😀</h2>
+    3    <div class="text-block">
+    4:     <p>I am a MSc graduate (GPA 3.3) with 6 years of experience in the Tech Industry in 8 different countries across Europe, Middle East and Asia. I spent my career working as Project Manager and Product Manager always with multicultural teams.</p>
+    5:     <p>I am currently working as Project Manager in a big Portuguese agency named ALTA Digital.</p>
+    6      <p>I am always ready to embrace new challenges as:</p>
+    7      <ul>
+    8:       <li>- Project Manager and Product Manager (with 6+ years of experience on the Tech Industry)</li>
+    9        <li>- Freelance Frontend Developer (Junior level) - Using ERB, SCSS and JavaScript, and my next step is learning React</li>
+   10      </ul>
+
+/Users/hugo/code/hugoabreu7/hugo_abreu/source/layouts/_experience_modals.html.erb:
+   47        <div class="modal-body">
+   48          <p class="black-text">- Implementation of projects related to Mobile Web Services in more than 40 countries remotely from Lisbon, with three different experiences abroad in Doha, in Dubai and in Kuala Lumpur</p>
+   49:         <p class="black-text">- Product Manager and worldwide main responsible for new improvements on NeoPIM, a company software able to build Mobile Web sites without programming skills required</p>
+   50          <p class="black-text">- Responsible for Innovation and New Product Development on the Mobile Web Business Unit. Achieved to create a new business unit and a new product for the company</p>
+   51        </div>
+
+/Users/hugo/code/hugoabreu7/hugo_abreu/source/layouts/layout.erb:
+   15      <meta name="viewport"
+   16            content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   17:     <title>Project Manager, Product Manager & Frontend Developer living between Portugal and Japan</title>
+   18:     <meta name="description" content="Looking for a Project Manager, Product Manager or a freelance Frontend Developer in Portugal or Japan? I'm Hugo Abreu, and I have 6 years of experience managing tech products and made a full stack coding bootcamp in Le Wagon Tokyo!">
+   19:     <meta property="og:title" content="Hugo Abreu - Project Manager, Product Manager & Frontend Developer">
+   20      <meta property="og:url" content="https://hugoabreu.pt">
+   21:     <meta property="og:description" content="I am a Project Manager, Product Manager and freelance Frontend Developer living between Portugal and Japan!">
+   22      <meta property="og:image" content= "https://res.cloudinary.com/dsbz0g917/image/upload/v1545026893/Social_Media.jpg">
+   23      <meta property="og:image:width" content="1200">
+   24      <meta property="og:image:height" content="630">
+   25:     <meta property="og:image:alt" content="Hugo Abreu - Product Manager and freelance Frontend Developer available to work in Portugal or Japan!" />
+   26
+   27      <%= stylesheet_link_tag "application" %>
+
+9 matches across 3 files
