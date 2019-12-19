@@ -1,4 +1,78 @@
-.flexbox-end {
-  display: flex;
-  justify-content: flex-end;
+.block {
+  background: white;
+  padding: 60px;
+  width:820px;
+  margin:0 auto;
+  text-align:justify;
 }
+
+ .secondary-block {
+  background: white;
+  padding: 0px 60px 60px 60px;
+  width:820px;
+  margin:0 auto;
+  text-align:justify;
+}
+
+.line-break {
+  border-bottom:1px solid black;
+  width: 150px;
+  margin:0 auto;
+}
+
+.blank {
+  height: 20px;
+  background: #fff;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+.parallax {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax-me {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%),
+  url(https://res.cloudinary.com/dsbz0g917/image/upload/v1545023791/Banner.jpg);
+}
+
+ .parallax-work {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%),
+  url(https://res.cloudinary.com/dsbz0g917/image/upload/v1545023791/Banner.jpg);
+}
+
+.parallax-milestones {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%),
+  url(https://res.cloudinary.com/dsbz0g917/image/upload/v1545023791/Banner.jpg);
+}
+
+.parallax-contacts {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%),
+  url(https://res.cloudinary.com/dsbz0g917/image/upload/v1545023791/Banner.jpg);
+}
+
+.my-contacts {
+  height: 30vh;
+}
+
+
