@@ -1,13 +1,51 @@
-@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
 
-h1 {font-family:'Oswald', sans-serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
-h2 {font-family:'Oswald', sans-serif; font-size:90px; letter-spacing:10px; text-align:center; color:white; font-weight:300; text-transform:uppercase; z-index:10; opacity:.9;}
-h3 {font-family:'Oswald', sans-serif; font-size:20px; line-height:0; font-weight:400; letter-spacing:8px; text-transform: uppercase; color:black;}
-p {font-family:'Source Sans Pro', sans-serif; font-weight:400; font-size:14px; line-height:24px;}
-.small-bulletpoints {padding-left: 8px; font-size: 12px; margin-bottom: 0px;}
+h1 h2 h3 {
+  font-family: $headers-font;
+}
+
+h1 {
+  font-size:24px;
+  font-weight:400;
+  text-transform: uppercase;
+  color: $my-black;
+  padding:0;
+  margin:0;
+}
+
+h2 {
+  font-size:90px;
+  letter-spacing:10px;
+  text-align:center;
+  color:white;
+  font-weight:200;
+  text-transform:uppercase;
+  z-index:1;
+  opacity:.9;
+}
+
+h3 {font-size:20px;
+  font-weight:400;
+  text-transform: uppercase;
+  color: $my-black;
+}
+
+p {
+  font-family: $body-font;
+  font-weight:400;
+  font-size:14px;
+  line-height:24px;
+}
+span {
+
+}
+
+.small-bulletpoints {
+  padding-left: 8px;
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
 .before-bulletpoints {margin-bottom: 6px;}
-
 
 .title {
   background: white;
@@ -16,15 +54,33 @@ p {font-family:'Source Sans Pro', sans-serif; font-weight:400; font-size:14px; l
   text-align:center;
   height: 100vh;
 
-  h1 {font-size:54px; letter-spacing:8px; margin-top: 2vh;}
-  h3 {font-size: 20px; margin-top: 38vh;}
-  p {font-size: 12px; margin-top: 32vh;}
+    h1 {font-size:54px; letter-spacing:8px; margin-top: 2vh;}
+    h3 {font-size: 20px; margin-top: 38vh;}
+    p {font-size: 12px; margin-top: 32vh;}
 }
 
-.company {font-family:'Oswald', sans-serif; font-size:18px; line-height:0; font-weight:400; letter-spacing:2px; text-transform: uppercase; color:black; padding-right: 2px;}
-.date {font-family:'Oswald', sans-serif; font-size:12px; line-height:0; font-weight:400; letter-spacing:2px; text-transform: uppercase; color:black; opacity: 0.7; margin: 12px 0px 32px 0px;}
-.role {font-family:'Oswald', sans-serif; font-size:18px; line-height:0; font-weight:400; letter-spacing:2px; text-transform: uppercase; color:black; opacity: 0.7; padding-left: 2px;}
+.company .date .role {
+  line-height:0;
+  font-weight:400;
+  letter-spacing:2px;
+  text-transform: uppercase;
+  color: $my-black;
+}
 
+.company {
+  font-size:18px;
+  padding-right: 2px;
+}
 
+.date {
+  font-size:12px;
+  opacity: 0.7;
+  margin: 12px 0px 32px 0px;
+}
 
+.role {
+  font-size:18px;
+  opacity: 0.7;
+  padding-left: 2px;
+}
 

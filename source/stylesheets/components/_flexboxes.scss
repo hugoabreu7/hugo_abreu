@@ -1,17 +1,16 @@
-.block {
+.block .secondary-block {
   background: white;
-  padding: 60px;
   width:820px;
   margin:0 auto;
   text-align:justify;
 }
 
+.block {
+  padding: 60px;
+}
+
  .secondary-block {
-  background: white;
   padding: 0px 60px 60px 60px;
-  width:820px;
-  margin:0 auto;
-  text-align:justify;
 }
 
 .line-break {
@@ -51,26 +50,6 @@
   justify-content: center;
 }
 
-.parallax-me {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%),
-  url(https://res.cloudinary.com/dsbz0g917/image/upload/v1545023791/Banner.jpg);
-}
-
- .parallax-work {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%),
-  url(https://res.cloudinary.com/dsbz0g917/image/upload/v1545023791/Banner.jpg);
-}
-
-.parallax-milestones {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%),
-  url(https://res.cloudinary.com/dsbz0g917/image/upload/v1545023791/Banner.jpg);
-}
-
-.parallax-contacts {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%),
-  url(https://res.cloudinary.com/dsbz0g917/image/upload/v1545023791/Banner.jpg);
-}
-
 .my-contacts {
   height: 40vh;
   display: flex;
@@ -81,3 +60,4 @@
 .icon {
   padding: 0px 80px;
 }
+

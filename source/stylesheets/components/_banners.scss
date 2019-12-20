@@ -1,0 +1,47 @@
+// Desktop
+
+.parallax-me {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%),
+  url(https://res.cloudinary.com/dsbz0g917/image/upload/c_scale,w_1600/v1576878953/1Desktop.jpg);
+}
+
+ .parallax-work {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%),
+  url(https://res.cloudinary.com/dsbz0g917/image/upload/c_scale,w_1600/v1545023791/Banner.jpg);
+}
+
+.parallax-milestones {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.1) 100%),
+  url(https://res.cloudinary.com/dsbz0g917/image/upload/c_scale,w_1600/v1576878952/3Desktop.jpg);
+}
+
+.parallax-contacts {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%),
+  url(https://res.cloudinary.com/dsbz0g917/image/upload/c_scale,w_1600/v1576878952/4Desktop.jpg);
+}
+
+// Mobile
+
+@media screen and (max-width: 959px) {
+
+  .parallax-me {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%),
+  url(https://res.cloudinary.com/dsbz0g917/image/upload/c_scale,h_1000/v1576878953/1Mobile.jpg);
+  }
+
+ .parallax-work {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%),
+  url(https://res.cloudinary.com/dsbz0g917/image/upload/c_scale,h_1000/v1545023791/2Mobile.jpg);
+  }
+
+  .parallax-milestones {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.1) 100%),
+  url(https://res.cloudinary.com/dsbz0g917/image/upload/c_scale,h_1000/v1576878952/3Mobile.jpg);
+  }
+
+  .parallax-contacts {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%),
+  url(https://res.cloudinary.com/dsbz0g917/image/upload/c_scale,h_1000/v1576878952/4Mobile.jpg);
+  }
+
+}

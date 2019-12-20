@@ -13,9 +13,34 @@
     padding-bottom:100px;
     .icon {padding: 0px 40px;}
   }
+  .title {
+    h3 {
+      font-size: 16px !important;
+      padding-bottom: 6px;
+      margin-top: 32vh !important;
+      letter-spacing:8px;
+    }
+    p {
+      margin-top: 26vh !important;
+    }
+  }
+  .parallax {
+    h2 {
+      font-size: 60px !important;
+    }
+  }
+  .my-contacts {
+    height: 30vh !important;
+  }
 }
 
 @media screen and (max-width: 479px) {
-   .block, .secondary-block {padding: 30px 15px; width:290px;}
+   .block, .secondary-block {padding: 30px 15px; max-width:360px;
+    p {text-align: justify;}
+  }
    .icon {padding: 0px 40px;}
+}
+
+@media screen and (max-width: 370px) {
+  .block, .secondary-block {max-width:300px;}
 }
