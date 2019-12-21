@@ -35,12 +35,8 @@
 }
 
 @media screen and (max-width: 479px) {
-   .block, .secondary-block {padding: 30px 15px; max-width:360px;
+   .block, .secondary-block {padding: 30px 15px; max-width: 100vw;
     p {text-align: justify;}
   }
    .icon {padding: 0px 40px;}
-}
-
-@media screen and (max-width: 370px) {
-  .block, .secondary-block {max-width:300px;}
 }
